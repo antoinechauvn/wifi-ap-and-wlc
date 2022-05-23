@@ -5,18 +5,6 @@
 * Contrôleur (WLC) et points d’accès légers (Lightweight APs)
 * Solution basée nuage (Cloud)
 
-### BSS
-Ensemble de services de base (Basic Service Set)
-* Un groupe de stations communiquant entre elles par l’intermédiaire d’un point d’accès (Access Point, AP)
-* Communiquant dans la zone de service de base (BSA, “Basic Service Area”), un espace défini par les caractéristiques de propagation des ondes radio.
-
-![image](https://user-images.githubusercontent.com/83721477/169845255-9a757379-f562-4877-9a98-bd15d05f5cda.png)
-
-### BSA
-Une zone de service de base (BSA) est la zone physique de couverture fournie par un point d'accès dans un BSS
-
-![image](https://user-images.githubusercontent.com/83721477/169846061-a210e44e-a9b3-4361-b0db-c57c8e8c5b68.png)
-
 ### Plan de gestion
 Le plan de contrôle fait référence à toutes les fonctions et processus qui déterminent le chemin à utiliser pour envoyer le paquet ou la trame.
 Le routage est effectué dans le plan de contrôle.
@@ -61,12 +49,23 @@ Il existe 2 sous-mode
 * mode `BSS` (Basic Service Set)
 * mode `ESS` (Extended Service Set)
 
-#### Basic Service Set
-* 1 borne d'accès
+#### BSS
+Ensemble de services de base (Basic Service Set)
+* Un groupe de stations communiquant entre elles par l’intermédiaire d’un point d’accès (Access Point, AP)
+* Communiquant dans la zone de service de base (BSA, “Basic Service Area”), un espace défini par les caractéristiques de propagation des ondes radio.
+
+![image](https://user-images.githubusercontent.com/83721477/169845255-9a757379-f562-4877-9a98-bd15d05f5cda.png)
+
+#### BSA
+Une zone de service de base (BSA) est la zone physique de couverture fournie par un point d'accès dans un BSS
+
+![image](https://user-images.githubusercontent.com/83721477/169846061-a210e44e-a9b3-4361-b0db-c57c8e8c5b68.png)
 
 #### Extended Service Set
 * Minimum 2 bornes d’accès, voir des dizaines ou centaines.
 * Les clients peuvent effectuer du roaming en passant d’une borne vers une autre sans couper la communication réseau.
+
+![image](https://user-images.githubusercontent.com/83721477/169848565-84833aaa-ede2-4e86-8266-e696086f4459.png)
 
 ### Borne lourde / Standalone
 
@@ -110,3 +109,12 @@ Il existe 2 sous-mode
 * Un accès graphique (GUI) en HTTP ou en HTTPS
 * Un accès en ligne de commande (CLI) en Telnet, en SSH, ou en console physique
 * Un accès à travers un port de service dédié
+
+## Multi-BSS
+* Un seul point d’accès (AP) pour gérer plusieurs réseaux, “multi-SSID”, “multi-BSS” ou “APs virtuels”.
+* 1 “station de base” physique simule un ensemble de “stations de base” avec différentes configurations
+* L’espace physique est le même et il est partagé entre les réseaux logiques.
+
+![image](https://user-images.githubusercontent.com/83721477/169848474-4b95e77f-ccf8-400e-b2d6-3d6faec2d1c4.png)
+
+*Note: Multiplier les SSIDs n’augmente pas la capacité du réseau.*
