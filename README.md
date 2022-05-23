@@ -17,13 +17,11 @@ Une zone de service de base (BSA) est la zone physique de couverture fournie par
 
 ![image](https://user-images.githubusercontent.com/83721477/169846061-a210e44e-a9b3-4361-b0db-c57c8e8c5b68.png)
 
-
-
-* Plan de gestion
+### Plan de gestion
 Le plan de contrôle fait référence à toutes les fonctions et processus qui déterminent le chemin à utiliser pour envoyer le paquet ou la trame.
 Le routage est effectué dans le plan de contrôle.
 
-* Plan données
+### Plan données
 Le plan de données fait référence à toutes les fonctions et processus qui transfèrent les paquets/trames d'une interface à une autre en fonction de la logique du plan de contrôle.
 La commutation est effectuée dans le plan de données.
 En tant que , le point d‘accès lourd peut implémenter la numérotation (dialing), le routage et certaines fonctions supplémentaires. Généralement, les points d‘accès lourds sont utilisés comme des points d'accès autonomes qui peuvent fonctionner en l'absence de tout dispositif de contrôle.
@@ -42,6 +40,7 @@ Dans un réseau sans fil, il existe 2 types d’architecture que l’on peut met
 * MODE `INFRASTRUCTURE`
 
 ### Mode AD-HOC
+
 ![image](https://user-images.githubusercontent.com/83721477/169828890-8db62f2c-0a03-486c-a3a9-7b3631972b22.png)
 * Pas d'intervention d'une borne d’accès.
 * Communication point à point (P2P).
@@ -52,6 +51,7 @@ Dans un réseau sans fil, il existe 2 types d’architecture que l’on peut met
 Ce mode s’appelle IBSS (Independent Basic Service Set)
 
 ### Mode INFRASTRUCTURE
+
 ![image](https://user-images.githubusercontent.com/83721477/169829637-387f01b6-768f-493b-aaac-460cd91ed8cc.png)
 
 * Fonctionne par l’intermédiaire d’au moins 1 borne d’accès.
@@ -69,6 +69,7 @@ Il existe 2 sous-mode
 * Les clients peuvent effectuer du roaming en passant d’une borne vers une autre sans couper la communication réseau.
 
 ### Borne lourde / Standalone
+
 ![image](https://user-images.githubusercontent.com/83721477/169830437-8930c152-a591-4f61-b091-9796e590e3f2.png)
 
 **Dispositif de réseau pouvant fonctionner de manière indépendante**
@@ -81,12 +82,13 @@ Il existe 2 sous-mode
 * Connexion en console ou telnet/ssh/http à la borne pour lui configurer différents paramètres comme le SSID, le canal à utiliser, la puissance.
 
 ### Borne légère / Lightweight
+
 ![image](https://user-images.githubusercontent.com/83721477/169832050-dd4e2305-2091-49e5-95b1-9d1905c191ad.png)
-Tâches physiques de bas niveau telles que :
+
 * l’émission/réception du trafic radio
 * la gestion des accès (MAC)
 * le chiffrement du trafic
-* suppriment le routage, DNS, serveur DHCP et de nombreuses autres fonctions de chargement et ne conserve que la partie accès sans fil
+* Pas de routage, DNS, serveur DHCP et de nombreuses autres fonctions de chargement et ne conserve que la partie accès sans fil
 * reçoit/envoi des trames vers un boitier intelligent, le WLC (Wireless LAN Controller).
 *Note: les points d’accès légers se gèrent uniquement avec un contrôleur (WLC)*
 
