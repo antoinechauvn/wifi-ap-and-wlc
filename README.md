@@ -65,9 +65,12 @@ Il existe 2 sous-mode
 
 ### Borne légère / Lightweight
 ![image](https://user-images.githubusercontent.com/83721477/169832050-dd4e2305-2091-49e5-95b1-9d1905c191ad.png)
-* sans système d'exploitation complet
+Tâches physiques de bas niveau telles que :
+* l’émission/réception du trafic radio
+* la gestion des accès (MAC)
+* le chiffrement du trafic
 * suppriment le routage, DNS, serveur DHCP et de nombreuses autres fonctions de chargement et ne conserve que la partie accès sans fil
-* reçoit/envoi des trames vers un boitier intelligent, le WLC – Wireless LAN Controller.
+* reçoit/envoi des trames vers un boitier intelligent, le WLC (Wireless LAN Controller).
 *Note: les points d’accès légers se gèrent uniquement avec un contrôleur (WLC)*
 
 WLC: Ce boitier va contrôler à distance toutes les bornes d’accès et c’est sur ce boitier que l’administrateur va se connecter. Toute la configuration se trouve dedans et c’est le WLC qui va commuter/router les trames vers les bonnes destinations et non plus les bornes !
