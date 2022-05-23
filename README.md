@@ -25,8 +25,8 @@ La technologie WLAN du standard IEEE 802.11 couvre la couche “Accès au résea
 ## Les différents modes d’architecture
 Dans un réseau sans fil, il existe 2 types d’architecture que l’on peut mettre en place:
 
-* MODE AD-HOC
-* MODE INFRASTRUCTURE
+* MODE `AD-HOC`
+* MODE `INFRASTRUCTURE`
 
 ### Mode AD-HOC
 ![image](https://user-images.githubusercontent.com/83721477/169828890-8db62f2c-0a03-486c-a3a9-7b3631972b22.png)
@@ -45,15 +45,15 @@ Ce mode s’appelle IBSS (Independent Basic Service Set)
 * Les clients sans fil, ordinateurs portables, smartphones… s’associent à la borne d’accès puis envoient leur données à la borne qui se charge de les transmettre aux bonnes destinations.
 
 Il existe 2 sous-mode
-* mode BSS – Basic Service Set
-* mode ESS – Extended Service Set
+* mode `BSS` (Basic Service Set)
+* mode `ESS` (Extended Service Set)
 
 #### Basic Service Set
-Dans ce mode, on utilise qu’une seule borne d’accès.
+* 1 borne d'accès
 
 #### Extended Service Set
 * Minimum 2 bornes d’accès, voir des dizaines ou centaines.
-* La différence d’être dans ce mode est que les clients peuvent effectuer du roaming en passant d’une borne vers une autre sans couper la communication réseau.
+* Les clients peuvent effectuer du roaming en passant d’une borne vers une autre sans couper la communication réseau.
 
 ### Borne lourde / Standalone
 ![image](https://user-images.githubusercontent.com/83721477/169830437-8930c152-a591-4f61-b091-9796e590e3f2.png)
