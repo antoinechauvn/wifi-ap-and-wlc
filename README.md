@@ -28,3 +28,6 @@ un abonnement qui permet de configurer, contrôler, gérer et surveiller l’ens
 
 ![image](https://user-images.githubusercontent.com/83721477/169791692-6b6a25ca-7cdf-48a4-a26e-e0ea51834c63.png)
 
+
+Les points d‘accès légers, sans système d'exploitation complet propre, suppriment le routage, DNS, serveur DHCP et de nombreuses autres fonctions de chargement et ne conserve que la partie accès sans fil
+
