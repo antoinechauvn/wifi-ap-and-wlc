@@ -68,6 +68,7 @@ Il existe 2 sous-mode
 * sans système d'exploitation complet
 * suppriment le routage, DNS, serveur DHCP et de nombreuses autres fonctions de chargement et ne conserve que la partie accès sans fil
 * reçoit/envoi des trames vers un boitier intelligent, le WLC – Wireless LAN Controller.
+*Note: les points d’accès légers se gèrent uniquement avec un contrôleur (WLC)*
 
 WLC: Ce boitier va contrôler à distance toutes les bornes d’accès et c’est sur ce boitier que l’administrateur va se connecter. Toute la configuration se trouve dedans et c’est le WLC qui va commuter/router les trames vers les bonnes destinations et non plus les bornes !
 
