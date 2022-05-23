@@ -5,6 +5,20 @@
 * Contrôleur (WLC) et points d’accès légers (Lightweight APs)
 * Solution basée nuage (Cloud)
 
+### BSS
+Ensemble de services de base (Basic Service Set)
+* Un groupe de stations communiquant entre elles par l’intermédiaire d’un point d’accès (Access Point, AP)
+* Communiquant dans la zone de service de base (BSA, “Basic Service Area”), un espace défini par les caractéristiques de propagation des ondes radio.
+
+![image](https://user-images.githubusercontent.com/83721477/169845255-9a757379-f562-4877-9a98-bd15d05f5cda.png)
+
+### BSA
+Une zone de service de base (BSA) est la zone physique de couverture fournie par un point d'accès dans un BSS
+
+![image](https://user-images.githubusercontent.com/83721477/169846061-a210e44e-a9b3-4361-b0db-c57c8e8c5b68.png)
+
+
+
 * Plan de gestion
 Le plan de contrôle fait référence à toutes les fonctions et processus qui déterminent le chemin à utiliser pour envoyer le paquet ou la trame.
 Le routage est effectué dans le plan de contrôle.
@@ -12,8 +26,7 @@ Le routage est effectué dans le plan de contrôle.
 * Plan données
 Le plan de données fait référence à toutes les fonctions et processus qui transfèrent les paquets/trames d'une interface à une autre en fonction de la logique du plan de contrôle.
 La commutation est effectuée dans le plan de données.
-
-un point d‘accès lourd qui dispose de ports WAN et LAN peut prendre en charge des fonctions de sécurité telles que le serveur DHCP, DNS, clonage d'adresses MAC, accès VPN et pare-feu. En tant que dispositif de réseau pouvant fonctionner de manière indépendante, le point d‘accès lourd peut implémenter la numérotation (dialing), le routage et certaines fonctions supplémentaires. Généralement, les points d‘accès lourds sont utilisés comme des points d'accès autonomes qui peuvent fonctionner en l'absence de tout dispositif de contrôle.
+En tant que , le point d‘accès lourd peut implémenter la numérotation (dialing), le routage et certaines fonctions supplémentaires. Généralement, les points d‘accès lourds sont utilisés comme des points d'accès autonomes qui peuvent fonctionner en l'absence de tout dispositif de contrôle.
 
 ## Protocoles IEEE 802.11
 La technologie WLAN du standard IEEE 802.11 couvre la couche “Accès au réseau” du modèle TCP/IP ou les couches “Physique” (L1) et “Liaison de données” (L2) du modèle OSI.
@@ -58,10 +71,14 @@ Il existe 2 sous-mode
 ### Borne lourde / Standalone
 ![image](https://user-images.githubusercontent.com/83721477/169830437-8930c152-a591-4f61-b091-9796e590e3f2.png)
 
+**Dispositif de réseau pouvant fonctionner de manière indépendante**
+
 * Les premières bornes d’accès étaient en mode lourd/standalone
+* Gère la commutation
 * Au sein de leur système d’exploitation se trouvait toute la configuration (comme un IOS pour un switch ou routeur)
-* Les trames utilisateurs étaient commutées par la borne vers les bonnes destination.
-* Connexion en console ou telnet/ssh/http à la borne pour lui configurer différents paramètres comme le SSID (le nom de la pizzeria), le canal à utiliser, la puissance.
+* dispose de ports WAN et LAN
+* peut prendre en charge des fonctions de sécurité telles que le serveur DHCP, DNS, clonage d'adresses MAC, accès VPN et pare-feu.
+* Connexion en console ou telnet/ssh/http à la borne pour lui configurer différents paramètres comme le SSID, le canal à utiliser, la puissance.
 
 ### Borne légère / Lightweight
 ![image](https://user-images.githubusercontent.com/83721477/169832050-dd4e2305-2091-49e5-95b1-9d1905c191ad.png)
