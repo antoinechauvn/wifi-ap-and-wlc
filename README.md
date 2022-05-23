@@ -73,8 +73,6 @@ Tâches physiques de bas niveau telles que :
 * reçoit/envoi des trames vers un boitier intelligent, le WLC (Wireless LAN Controller).
 *Note: les points d’accès légers se gèrent uniquement avec un contrôleur (WLC)*
 
-WLC: Ce boitier va contrôler à distance toutes les bornes d’accès et c’est sur ce boitier que l’administrateur va se connecter. Toute la configuration se trouve dedans et c’est le WLC qui va commuter/router les trames vers les bonnes destinations et non plus les bornes !
-
 #### Fonctionnement
 * La borne démarre électriquement
 * Son interface filaire va envoyer une requête DHCP pour récupérer une adresse IP
@@ -82,3 +80,14 @@ WLC: Ce boitier va contrôler à distance toutes les bornes d’accès et c’es
 * Le WLC va lui envoyer sa configuration minimal avec tous les paramètres au bon fonctionnement (SSID, puissance, canal…)
 * Une fois configurée, la borne envoi tout le trafic des clients WiFi au contrôleur qui se chargera de les envoyer vers les bonnes destinations
 
+### WLC (Wireless LAN Controllers)
+* Contrôler des points d’accès (AP)
+* Vue unifiée du réseau sans-fil.
+* Embarquent des fonctions avancées du réseau.
+* Détection des interférences et l’ajustement des fréquences utilisées
+* Optimiser la couverture radio sur des espaces physiques très larges.
+
+#### Un contrôleur WLAN (WLC) peut se gérer de différentes manières :
+* Un accès graphique (GUI) en HTTP ou en HTTPS
+* Un accès en ligne de commande (CLI) en Telnet, en SSH, ou en console physique
+* Un accès à travers un port de service dédié
