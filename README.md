@@ -31,3 +31,5 @@ un abonnement qui permet de configurer, contrôler, gérer et surveiller l’ens
 
 Les points d‘accès légers, sans système d'exploitation complet propre, suppriment le routage, DNS, serveur DHCP et de nombreuses autres fonctions de chargement et ne conserve que la partie accès sans fil
 
+un point d‘accès lourd qui dispose de ports WAN et LAN peut prendre en charge des fonctions de sécurité telles que le serveur DHCP, DNS, clonage d'adresses MAC, accès VPN et pare-feu. En tant que dispositif de réseau pouvant fonctionner de manière indépendante, le point d‘accès lourd peut implémenter la numérotation (dialing), le routage et certaines fonctions supplémentaires. Généralement, les points d‘accès lourds sont utilisés comme des points d'accès autonomes qui peuvent fonctionner en l'absence de tout dispositif de contrôle.
+
