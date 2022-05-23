@@ -15,7 +15,9 @@ La commutation est effectuée dans le plan de données.
 En tant que , le point d‘accès lourd peut implémenter la numérotation (dialing), le routage et certaines fonctions supplémentaires. Généralement, les points d‘accès lourds sont utilisés comme des points d'accès autonomes qui peuvent fonctionner en l'absence de tout dispositif de contrôle.
 
 ## Protocoles IEEE 802.11
-La technologie WLAN du standard IEEE 802.11 couvre la couche “Accès au réseau” du modèle TCP/IP ou les couches “Physique” (L1) et “Liaison de données” (L2) du modèle OSI.
+WLAN du standard IEEE 802.11:
+* “Accès au réseau” du modèle TCP/IP
+* “Physique” (L1) et “Liaison de données” (L2) du modèle OSI.
 
 ![image](https://user-images.githubusercontent.com/83721477/169827947-d9fad851-be74-4b3c-a20e-b8a91bf4f666.png)
 
