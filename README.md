@@ -120,3 +120,7 @@ Une zone de service de base (BSA) est la zone physique de couverture fournie par
 ![image](https://user-images.githubusercontent.com/83721477/169848474-4b95e77f-ccf8-400e-b2d6-3d6faec2d1c4.png)
 
 *Note: Multiplier les SSIDs n’augmente pas la capacité du réseau.*
+
+### Système de distribution (DS)
+Le système de distribution établit la connexion entre le réseau filaire Ethernet et le réseau sans fil sur un plan logique, agissant de la sorte comme un pont vers le réseau Wi-Fi.
+![image](https://user-images.githubusercontent.com/83721477/170251884-092cb8f4-13b8-40cf-a9f7-21c2f7a99f5d.png)
